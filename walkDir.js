@@ -1,7 +1,7 @@
 var fs = require("fs");
 var path = require("path");
 
-/**
+/**test
  * 排除basename以.或者_开头的目录|文件(如.svn,_html,_psd, _a.psd等)
  */
 function defaultFilter(uri){
